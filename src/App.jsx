@@ -1,101 +1,100 @@
-import { useEffect, useState } from 'react';
+import { useState, useEffect } from 'react';
+import { auth, db } from './firebase/config';
+import { onAuthStateChanged, signInAnonymously } from 'firebase/auth';
+import { collection, getDocs } from 'firebase/firestore';
 import TarjetaTemplo from './components/TarjetaTemplo';
+import GeneradorRecorridos from './components/GeneradorRecorridos';
 
 export default function App() {
-  // 1. Estados de la aplicación
+
+  // Verificación Firebase
+  const [usuario, setUsuario] = useState(null);
+  const [cargandoAuth, setCargandoAuth] = useState(true);
+  const [errorAuth, setErrorAuth] = useState('');
+
+  // Import templos desde Firebase
   const [templos, setTemplos] = useState([]);
-  const [busqueda, setBusqueda] = useState('');
-  const [cargando, setCargando] = useState(true);
-  const [error, setError] = useState('');
+  const [cargandoTemplos, setCargandoTemplos] = useState(true);
+  const [errorTemplos, setErrorTemplos] = useState('');
 
-  // 2. Consulta a Wikidata
+  // 1. Estado del filtro por zona
+  const [zonaSeleccionada, setZonaSeleccionada] = useState('Todas');
+
+  // 2. Obtenemos las zonas disponibles sin repetirlas
+  const zonas = [
+    ...new Set(templos.map((templo) => templo.zona))
+  ].sort((a, b) => a.localeCompare(b));
+
+  // 3. Filtramos los templos según la zona elegida
+  const templosFiltrados = templos.filter((templo) =>
+    zonaSeleccionada === 'Todas' || templo.zona === zonaSeleccionada
+  );
+
+  // useEffect para la verificación anónima de Firebase
   useEffect(() => {
+    const cancelarSuscripcion = onAuthStateChanged(auth, (usuarioActual) => {
+      if (usuarioActual) {
+        // Ya existe una sesión
+        setUsuario(usuarioActual);
+        setCargandoAuth(false);
+      } else {
+        // No existe una sesión: creamos una anónima
+        signInAnonymously(auth)
+          .catch((error) => {
+            console.error('Error al iniciar sesión:', error);
+            setErrorAuth('No se pudo iniciar la sesión.');
+            setCargandoAuth(false);
+          });
+      }
+    });
 
-    async function cargarTemplos() {
+    // Limpiamos la suscripción al desmontar el componente
+    return () => cancelarSuscripcion();
+  }, []);
+
+  // useEffect para acceder a templos de Firebase
+  useEffect(() => {
+  if (!usuario) return;
+
+  async function cargarTemplos() {
+      setCargandoTemplos(true);
+      setErrorTemplos('');
+
       try {
-        setCargando(true);
-        setError('');
+        const referencia = collection(db, 'templos');
+        const resultado = await getDocs(referencia);
 
-        const consulta = `
-          SELECT DISTINCT
-            ?temple
-            ?templeLabel
-            ?areaLabel
-            ?founded
-            ?image
-          WHERE {
-            ?temple wdt:P31/wdt:P279* wd:Q5393308;
-                    wdt:P131 ?area;
-                    wdt:P571 ?founded;
-                    wdt:P18 ?image.
+        const datosTemplos = resultado.docs.map((documento) => ({
+          ...documento.data()
+        }));
 
-            ?area wdt:P131 wd:Q34600.
-
-            SERVICE wikibase:label {
-              bd:serviceParam wikibase:language "en,ja".
-            }
-          }
-          ORDER BY ?templeLabel
-          LIMIT 60
-        `;
-
-        const endpoint = 'https://query.wikidata.org/sparql';
-
-        const parametros = new URLSearchParams({
-          query: consulta,
-          format: 'json'
-        });
-
-        const respuesta = await fetch(
-          `${endpoint}?${parametros.toString()}`,
-          {
-            headers: {
-              Accept: 'application/sparql-results+json'
-            }
-          }
+        // Ordenamos los templos alfabéticamente
+        datosTemplos.sort((a, b) =>
+          a.nombre.localeCompare(b.nombre, 'es')
         );
 
-        if (!respuesta.ok) {
-          throw new Error('No se pudieron obtener los templos.');
-        }
-
-        const datos = await respuesta.json();
-
-        // 3. Transformamos los resultados de Wikidata
-        const templosNormalizados = datos.results.bindings.map((item) => {
-          const fecha = item.founded.value;
-          const año = Number(fecha.match(/[+-]?\d+/)[0]);
-
-          return {
-            id: item.temple.value,
-            nombre: item.templeLabel.value,
-            zona: item.areaLabel?.value ?? 'Zona no especificada',
-            antiguedad: new Date().getFullYear() - año,
-            imagen: item.image.value
-          };
-        });
-
-        // 4. Guardamos los templos en el estado
-        setTemplos(templosNormalizados);
+        setTemplos(datosTemplos);
 
       } catch (error) {
-        console.error('Error al consultar Wikidata:', error);
-        setError('No se pudieron cargar los templos. Intentá nuevamente.');
+        console.error('Error al cargar los templos:', error);
+        setErrorTemplos('No se pudo cargar el catálogo de templos.');
       } finally {
-        setCargando(false);
+        setCargandoTemplos(false);
       }
     }
 
     cargarTemplos();
+  }, [usuario]);
 
-  }, []);
+  // Condiciones para la autenticación
+  if (cargandoAuth) { return <p>Preparando tu sesión...</p>; }
+  if (errorAuth) { return <p>{errorAuth}</p>; }
 
-  // 5. Buscador por nombre
-  const templosFiltrados = templos.filter((templo) =>
-    templo.nombre.toLowerCase().includes(busqueda.toLowerCase())
-  );
+  // Condiciones para cargar templos
+  if (cargandoTemplos) return <p>Cargando templos...</p>;
+  if (errorTemplos) return <p>{errorTemplos}</p>;
 
-  // 6. Interfaz
+  // 4. Interfaz
   return (
     <main className="contenedor">
 
@@ -108,47 +107,45 @@ export default function App() {
         </p>
       </header>
 
-      <section className="filtros" aria-label="Buscador">
-        <label>
-          Buscar por nombre
-          <input
-            type="search"
-            placeholder="Por ejemplo: Daitoku-ji"
-            value={busqueda}
-            onChange={(evento) => setBusqueda(evento.target.value)}
-          />
+      <GeneradorRecorridos
+        templos={templos}
+        userId={usuario.uid}
+      />
+
+      <section className="filtros" aria-label="Filtros de templos">
+        <label htmlFor="filtro-zona">
+          Explorar por zona
         </label>
+
+        <select
+          id="filtro-zona"
+          value={zonaSeleccionada}
+          onChange={(evento) => setZonaSeleccionada(evento.target.value)}
+        >
+          <option value="Todas">Todas las zonas</option>
+
+          {zonas.map((zona) => (
+            <option key={zona} value={zona}>
+              {zona}
+            </option>
+          ))}
+        </select>
       </section>
 
-      {cargando && (
-        <p className="mensaje" aria-live="polite">
-          Cargando templos...
+      <p aria-live="polite">
+        {templosFiltrados.length} de {templos.length} templos
+      </p>
+
+      {templosFiltrados.length === 0 ? (
+        <p className="mensaje">
+          No se encontraron templos en esta zona.
         </p>
-      )}
-
-      {error && (
-        <p className="mensaje error" role="alert">
-          {error}
-        </p>
-      )}
-
-      {!cargando && !error && (
-        <>
-          <p aria-live="polite">
-            {templosFiltrados.length} de {templos.length} templos encontrados
-          </p>
-
-          {templosFiltrados.length === 0 && (
-            <p className="mensaje">
-              No se encontraron templos con ese nombre.
-            </p>
-          )}
-
-          <section className="grilla" aria-label="Templos budistas">
-            {templosFiltrados.map((templo, indice) => (<TarjetaTemplo key={`${templo.id}-${indice}`} templo={templo}/>))}
-
-</section>
-        </>
+      ) : (
+        <section className="grilla" aria-label="Templos budistas">
+          {templosFiltrados.map((templo) => (
+            <TarjetaTemplo key={templo.id} templo={templo} />
+          ))}
+        </section>
       )}
 
       <footer>

@@ -1,0 +1,1829 @@
+[
+  {
+    "id": "Q11451144",
+    "nombre": "Anshō-ji",
+    "zona": "Yamashina-ku",
+    "antiguedad": 1178,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/240316%20Ansho-ji%20Yamashina%20Kyoto%20Japan01s3.jpg",
+    "latitud": 34.995666666,
+    "longitud": 135.815777777
+  },
+  {
+    "id": "Q11126319",
+    "nombre": "Bishamon-dō Temple",
+    "zona": "Yamashina-ku",
+    "antiguedad": 1323,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/240316%20Bishamondo%20Yamashina%20Kyoto%20Japan01s3.jpg",
+    "latitud": 35.00161111,
+    "longitud": 135.81886111
+  },
+  {
+    "id": "Q11476122",
+    "nombre": "Bujō-ji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 872,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B3%B0%E5%AE%9A%E5%AF%BA.JPG",
+    "latitud": 35.23577778,
+    "longitud": 135.79386111
+  },
+  {
+    "id": "Q2413893",
+    "nombre": "Bukkō-ji Temple",
+    "zona": "Shimogyō-ku",
+    "antiguedad": 814,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukk%C5%8D-ji%2C%20Kyoto%2003.jpg",
+    "latitud": 35.000808,
+    "longitud": 135.762111
+  },
+  {
+    "id": "Q11483471",
+    "nombre": "Byōdō-ji Temple",
+    "zona": "Shimogyō-ku",
+    "antiguedad": 1023,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kyoto%20Byoudouji.JPG",
+    "latitud": 34.9995,
+    "longitud": 135.7603
+  },
+  {
+    "id": "Q873645",
+    "nombre": "Chion-in Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 851,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Chion-in%20%287151259687%29.jpg",
+    "latitud": 35.005208333,
+    "longitud": 135.783402777
+  },
+  {
+    "id": "Q11090279",
+    "nombre": "Chishaku-in Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 425,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Chishakuin07n2040.jpg",
+    "latitud": 34.9881,
+    "longitud": 135.7764
+  },
+  {
+    "id": "Q55538275",
+    "nombre": "Chōen-ji Temple",
+    "zona": "Shimogyō-ku",
+    "antiguedad": 418,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%95%B7%E5%9C%93%E5%AF%BA%E6%9C%AC%E5%A0%82.jpg",
+    "latitud": 34.998583,
+    "longitud": 135.746361
+  },
+  {
+    "id": "Q11653535",
+    "nombre": "Chōfuku-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 857,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyofuku-ji%20%28Kyoto%2C%20Kyoto%29.jpg",
+    "latitud": 35.00255556,
+    "longitud": 135.70052778
+  },
+  {
+    "id": "Q11652982",
+    "nombre": "Chōken-ji Temple",
+    "zona": "Fushimi-ku",
+    "antiguedad": 327,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Choken-ji%20fushimi%20kyoto.JPG",
+    "latitud": 34.928391,
+    "longitud": 135.760635
+  },
+  {
+    "id": "Q11653663",
+    "nombre": "Chōkō-dō Temple",
+    "zona": "Shimogyō-ku",
+    "antiguedad": 843,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyoukoudo.JPG",
+    "latitud": 34.994,
+    "longitud": 135.76388889
+  },
+  {
+    "id": "Q11653106",
+    "nombre": "Chōraku-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 1221,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyourakuji-sanmon.jpg",
+    "latitud": 35.002583333,
+    "longitud": 135.783472222
+  },
+  {
+    "id": "Q1157535",
+    "nombre": "Daigo-ji Temple",
+    "zona": "Fushimi-ku",
+    "antiguedad": 1152,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/DaigojiPagoda3242.jpg",
+    "latitud": 34.95111111,
+    "longitud": 135.81944444
+  },
+  {
+    "id": "Q10934650",
+    "nombre": "Daihōon-ji Temple",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 805,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Daih%C5%8Don-ji%20Sando%2025.jpg",
+    "latitud": 35.0319,
+    "longitud": 135.7399
+  },
+  {
+    "id": "Q1157585",
+    "nombre": "Daikaku-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 1150,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Daigakuji.jpg",
+    "latitud": 35.02823929,
+    "longitud": 135.67774058
+  },
+  {
+    "id": "Q11432471",
+    "nombre": "Daikōmyō-ji Temple",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 687,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Daikomyo-ji.JPG",
+    "latitud": 35.033055555,
+    "longitud": 135.762347222
+  },
+  {
+    "id": "Q11438704",
+    "nombre": "Dairen-ji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 426,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Dairenji.jpg",
+    "latitud": 35.012764,
+    "longitud": 135.776611
+  },
+  {
+    "id": "Q3012166",
+    "nombre": "Daisen-in",
+    "zona": "Kita-ku",
+    "antiguedad": 517,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Daisen-in-1999-100.jpg",
+    "latitud": 35.044567,
+    "longitud": 135.74595
+  },
+  {
+    "id": "Q17224626",
+    "nombre": "Daishō-ji Temple",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 644,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%A4%A7%E8%81%96%E5%AF%BA%20%28%E4%BA%AC%E9%83%BD%E5%B8%82%29%20%E5%A4%96%E8%A6%B3.jpg",
+    "latitud": 35.03097222,
+    "longitud": 135.75888889
+  },
+  {
+    "id": "Q901256",
+    "nombre": "Daitoku-ji Temple",
+    "zona": "Kita-ku",
+    "antiguedad": 711,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/251230%20Daitoku-ji%20Kyoto%20Japan01s3.jpg",
+    "latitud": 35.043888888,
+    "longitud": 135.746111111
+  },
+  {
+    "id": "Q10938466",
+    "nombre": "Daiun-in Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 439,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Daiun-in%20Gion-kaku%2020260922.jpg",
+    "latitud": 35.00209444,
+    "longitud": 135.78005833
+  },
+  {
+    "id": "Q11441809",
+    "nombre": "Daiun-ji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 1055,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Daiun%20Temple%2C%20Iwakura.jpg",
+    "latitud": 35.08,
+    "longitud": 135.782222222
+  },
+  {
+    "id": "Q134893142",
+    "nombre": "Daiō-in Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 423,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Imagesanmon.jpg",
+    "latitud": 35.024228,
+    "longitud": 135.722272
+  },
+  {
+    "id": "Q11544580",
+    "nombre": "Dannohhorin-ji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 415,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Dannouhourin-ji%20Hondo.JPG",
+    "latitud": 35.00988056,
+    "longitud": 135.77321667
+  },
+  {
+    "id": "Q134888240",
+    "nombre": "Donge-in Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 641,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/120102%20Donge-in%20Kyoto%20Japan01s3.jpg",
+    "latitud": 35.015694,
+    "longitud": 135.68425
+  },
+  {
+    "id": "Q100872909",
+    "nombre": "Dōju-in Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 582,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Doujyuin%20kyoto.jpg",
+    "latitud": 34.978611111,
+    "longitud": 135.7725
+  },
+  {
+    "id": "Q2380134",
+    "nombre": "Eikan-dō Zenrin-ji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 1173,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Eikan-do%20Zenrin-ji%2C%20November%202016%20-03.jpg",
+    "latitud": 35.014525,
+    "longitud": 135.79529167
+  },
+  {
+    "id": "Q20043316",
+    "nombre": "Eiun-in",
+    "zona": "Sakyō-ku",
+    "antiguedad": 435,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Eiun-in%20part2%20in%20Konkai-komyou-ji%20temple%2020141223.JPG",
+    "latitud": 35.01964,
+    "longitud": 135.78682
+  },
+  {
+    "id": "Q135486500",
+    "nombre": "Enjō-ji Temple",
+    "zona": "Kita-ku",
+    "antiguedad": 396,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/250607%20Enjo-ji%20Kyoto%20Japan02s3.jpg",
+    "latitud": 35.055,
+    "longitud": 135.73011
+  },
+  {
+    "id": "Q3054422",
+    "nombre": "Enkō-ji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 425,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Enk%C5%8D-ji%20in%20Kyoto%20Japan04-r.jpg",
+    "latitud": 35.04508889,
+    "longitud": 135.79703611
+  },
+  {
+    "id": "Q11410117",
+    "nombre": "Enri-an Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 290,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%8E%AD%E9%9B%A2%E5%BA%B5%2C%20Kyoto%2002.jpg",
+    "latitud": 35.022944,
+    "longitud": 135.670778
+  },
+  {
+    "id": "Q11422904",
+    "nombre": "Entoku-in",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 394,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Entokuin%20Kyoto16n4272.jpg",
+    "latitud": 35.00058333,
+    "longitud": 135.77938889
+  },
+  {
+    "id": "Q10927539",
+    "nombre": "Entsu-ji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 387,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/230603%20Entsu-ji%20Sakyo-ku%20Kyoto%20Japan06s3.jpg",
+    "latitud": 35.0645,
+    "longitud": 135.76894444
+  },
+  {
+    "id": "Q56347627",
+    "nombre": "Entsū-ji Temple",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 270,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Entsu-ji%20temple%2C%20Kamigyo%2C%20Kyoto.jpg",
+    "latitud": 35.019611,
+    "longitud": 135.770139
+  },
+  {
+    "id": "Q11361596",
+    "nombre": "Fudōdō Myōō-in Temple",
+    "zona": "Shimogyō-ku",
+    "antiguedad": 1203,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Fudoudou%20Myououin.JPG",
+    "latitud": 34.98678,
+    "longitud": 135.75371
+  },
+  {
+    "id": "Q115917112",
+    "nombre": "Fukuden-ji Temple",
+    "zona": "Shimogyō-ku",
+    "antiguedad": 762,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukudenji.jpg",
+    "latitud": 34.993364,
+    "longitud": 135.764103
+  },
+  {
+    "id": "Q85882905",
+    "nombre": "Fukutoku-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 1315,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Fukutoku-ji%20%28Kyoto%29%2C%20Main%20hall.jpg",
+    "latitud": 35.193472,
+    "longitud": 135.64075
+  },
+  {
+    "id": "Q11614933",
+    "nombre": "Funda-in",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 706,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/FundainZunantei.jpg",
+    "latitud": 34.9763037,
+    "longitud": 135.7720766
+  },
+  {
+    "id": "Q11665144",
+    "nombre": "Gantoku-ji Temple",
+    "zona": "Nishikyō-ku",
+    "antiguedad": 1347,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Gantoku-ji%2C%20Gate.jpg",
+    "latitud": 34.960944,
+    "longitud": 135.652278
+  },
+  {
+    "id": "Q11564007",
+    "nombre": "Genkō-an",
+    "zona": "Kita-ku",
+    "antiguedad": 680,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/250607%20Genko-an%20Kyoto%20Japan06s3.jpg",
+    "latitud": 35.054813888,
+    "longitud": 135.731722222
+  },
+  {
+    "id": "Q257473",
+    "nombre": "Ginkaku-ji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 561,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Silver%20Pavilion%20%28Ginkaku%29%2020260921.jpg",
+    "latitud": 35.026666666,
+    "longitud": 135.798333333
+  },
+  {
+    "id": "Q11632498",
+    "nombre": "Gokoku-ji Temple",
+    "zona": "Yamashina-ku",
+    "antiguedad": 383,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Gokoku-ji%20temple%20202010-01.jpg",
+    "latitud": 34.989368,
+    "longitud": 135.815521
+  },
+  {
+    "id": "Q11572672",
+    "nombre": "Gyokurin-in",
+    "zona": "Kita-ku",
+    "antiguedad": 423,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyokurin-in.JPG",
+    "latitud": 35.04241667,
+    "longitud": 135.74316667
+  },
+  {
+    "id": "Q11640503",
+    "nombre": "Henjō-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 1037,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%81%8D%E7%85%A7%E5%AF%BA%20%E5%8F%B3%E4%BA%AC%E5%8C%BA%E5%B5%AF%E5%B3%A8%E5%BA%83%E6%B2%A2140513NI1.JPG",
+    "latitud": 35.02355556,
+    "longitud": 135.68911111
+  },
+  {
+    "id": "Q55537303",
+    "nombre": "Hiden-in Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 718,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hidenin%20Temple%2C%20Kyoto-0787.JPG",
+    "latitud": 34.979389,
+    "longitud": 135.776861
+  },
+  {
+    "id": "Q910281",
+    "nombre": "Higashi Hongan-ji Temple",
+    "zona": "Shimogyō-ku",
+    "antiguedad": 424,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/170216%20Higashi%20Honganji%20Kyoto%20Japan03bs5.jpg",
+    "latitud": 34.99080556,
+    "longitud": 135.75844167
+  },
+  {
+    "id": "Q11510635",
+    "nombre": "Hino Tanjō-in Temple",
+    "zona": "Fushimi-ku",
+    "antiguedad": 198,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hino-tanjoin01s2048.jpg",
+    "latitud": 34.933878,
+    "longitud": 135.815814
+  },
+  {
+    "id": "Q11521047",
+    "nombre": "Hongan-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 21,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Sagahonganji%20Temple.jpg",
+    "latitud": 35.026833,
+    "longitud": 135.670139
+  },
+  {
+    "id": "Q11521049",
+    "nombre": "Hongan-ji Temple",
+    "zona": "Fushimi-ku",
+    "antiguedad": 30,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%9C%AC%E9%A1%98%E5%AF%BA.jpg",
+    "latitud": 34.937,
+    "longitud": 135.741889
+  },
+  {
+    "id": "Q106836669",
+    "nombre": "Honganjiyamashinabetsu-in Temple",
+    "zona": "Yamashina-ku",
+    "antiguedad": 294,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hongan-ji%20Yamashina-betsuin.jpg",
+    "latitud": 34.983473,
+    "longitud": 135.815289
+  },
+  {
+    "id": "Q11520743",
+    "nombre": "Honkyō-ji Temple",
+    "zona": "Fushimi-ku",
+    "antiguedad": 520,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Honkyoji-Temple.jpg",
+    "latitud": 34.947417,
+    "longitud": 135.801806
+  },
+  {
+    "id": "Q11520525",
+    "nombre": "Honman-ji Temple",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 616,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Honmanji.jpg",
+    "latitud": 35.03225,
+    "longitud": 135.76766667
+  },
+  {
+    "id": "Q626535",
+    "nombre": "Honnō-ji Temple",
+    "zona": "Nakagyō-ku",
+    "antiguedad": 611,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/OdaNobunaga%20mausoleum.jpg",
+    "latitud": 35.010294,
+    "longitud": 135.768281
+  },
+  {
+    "id": "Q11521041",
+    "nombre": "Honryū-ji Temple",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 538,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%9C%AC%E9%9A%86%E5%AF%BA%20%E6%9C%AC%E5%A0%82.JPG",
+    "latitud": 35.03175,
+    "longitud": 135.7465
+  },
+  {
+    "id": "Q3140297",
+    "nombre": "Honzen-ji Temple",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 620,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Honzenji%20Kyoto%20006.jpg",
+    "latitud": 35.02663583,
+    "longitud": 135.76828667
+  },
+  {
+    "id": "Q3141015",
+    "nombre": "Hosshō-ji",
+    "zona": "Sakyō-ku",
+    "antiguedad": 949,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%99%BD%E6%B2%B3%E9%99%A2%E5%BA%AD%E5%9C%92.JPG",
+    "latitud": 35.013783,
+    "longitud": 135.787817
+  },
+  {
+    "id": "Q11555149",
+    "nombre": "Hosshō-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 1102,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hosshoji-temple.jpg",
+    "latitud": 34.979111,
+    "longitud": 135.770722
+  },
+  {
+    "id": "Q11452346",
+    "nombre": "Hōgon-in",
+    "zona": "Ukyō-ku",
+    "antiguedad": 565,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/TenryujiHogonin%20Shishiiwa.jpg",
+    "latitud": 35.014783333,
+    "longitud": 135.673708333
+  },
+  {
+    "id": "Q1072965",
+    "nombre": "Hōjū-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 1038,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Houjyuuji%2001.jpg",
+    "latitud": 34.987625,
+    "longitud": 135.77273056
+  },
+  {
+    "id": "Q11555272",
+    "nombre": "Hōkai-ji Temple",
+    "zona": "Fushimi-ku",
+    "antiguedad": 975,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hokaiji05s1920.jpg",
+    "latitud": 34.93415556,
+    "longitud": 135.81491667
+  },
+  {
+    "id": "Q11555353",
+    "nombre": "Hōkan-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 1326,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hokanji%20Kyoto01n4272.jpg",
+    "latitud": 34.99855,
+    "longitud": 135.77924167
+  },
+  {
+    "id": "Q11143738",
+    "nombre": "Hōkongō-in Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 896,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hokongoin%20Kyoto05n4592.jpg",
+    "latitud": 35.01915,
+    "longitud": 135.71594
+  },
+  {
+    "id": "Q1045971",
+    "nombre": "Hōkō-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 440,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hokoji%20Kyoto01bs1920.jpg",
+    "latitud": 34.992106,
+    "longitud": 135.772064
+  },
+  {
+    "id": "Q11555257",
+    "nombre": "Hōnen-in Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 346,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/TEMPLE%20HONEN-IN%20KYOTO%20%2816241836640%29.jpg",
+    "latitud": 35.023972,
+    "longitud": 135.797417
+  },
+  {
+    "id": "Q11555255",
+    "nombre": "Hōnen-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 829,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hounenji.jpg",
+    "latitud": 35.01833,
+    "longitud": 135.6752056
+  },
+  {
+    "id": "Q55537255",
+    "nombre": "Hōon-in Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 700,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Houon%27in%20%28Higashiyama-ku%2C%20Kyoto%29.jpg",
+    "latitud": 34.980777777,
+    "longitud": 135.777388888
+  },
+  {
+    "id": "Q3146371",
+    "nombre": "Hōrin-ji Temple",
+    "zona": "Nishikyō-ku",
+    "antiguedad": 1313,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Horinji%20Kyoto.jpg",
+    "latitud": 35.010236111,
+    "longitud": 135.676975
+  },
+  {
+    "id": "Q11555368",
+    "nombre": "Hōrin-ji Temple",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 299,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Daruma%20Horinji%20Temple140524NI3.JPG",
+    "latitud": 35.026,
+    "longitud": 135.73186
+  },
+  {
+    "id": "Q11452598",
+    "nombre": "Hōsen-in Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 1014,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hosenin%20%28Kyoto%29%20ac%20%283%29.jpg",
+    "latitud": 35.121347,
+    "longitud": 135.834006
+  },
+  {
+    "id": "Q11615791",
+    "nombre": "Hōshun-in",
+    "zona": "Kita-ku",
+    "antiguedad": 418,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kyoto%202008-11-20%20%283104900017%29.jpg",
+    "latitud": 35.04527778,
+    "longitud": 135.74508333
+  },
+  {
+    "id": "Q1652745",
+    "nombre": "Hōtō-ji Temple",
+    "zona": "Fushimi-ku",
+    "antiguedad": 1127,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kyoto%20Hotoji%20hondo.jpg",
+    "latitud": 34.96349722,
+    "longitud": 135.77528611
+  },
+  {
+    "id": "Q11630596",
+    "nombre": "Imakumano Kannon-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 1126,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kannonji8706-b.jpg",
+    "latitud": 34.979706,
+    "longitud": 135.780842
+  },
+  {
+    "id": "Q11487153",
+    "nombre": "Injō-ji Temple",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 1009,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Inj%C5%8D-ji%20Sembon%20Emma-d%C5%8D%20%28Kamigyo%20Kyoto%29%20Temple%20hdsr%20S5%2002.jpg",
+    "latitud": 35.03503333,
+    "longitud": 135.74036111
+  },
+  {
+    "id": "Q911985",
+    "nombre": "Jakkō-in",
+    "zona": "Sakyō-ku",
+    "antiguedad": 1426,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/JyakkouinHondo.jpg",
+    "latitud": 35.1241,
+    "longitud": 135.821042
+  },
+  {
+    "id": "Q1075034",
+    "nombre": "Jingo-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 1202,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Jingoji%20Kyoto%20Kyoto15s3s4500.jpg",
+    "latitud": 35.05501667,
+    "longitud": 135.67086667
+  },
+  {
+    "id": "Q11588753",
+    "nombre": "Jinko-in Temple",
+    "zona": "Kita-ku",
+    "antiguedad": 809,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Jinkoin%20Hondo.JPG",
+    "latitud": 35.06030556,
+    "longitud": 135.74363889
+  },
+  {
+    "id": "Q11452823",
+    "nombre": "Jissō-in Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 797,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/JissoinTeien%2001.jpg",
+    "latitud": 35.07888889,
+    "longitud": 135.78138889
+  },
+  {
+    "id": "Q11424695",
+    "nombre": "Jizō-in Temple",
+    "zona": "Nishikyō-ku",
+    "antiguedad": 659,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Jizoin4.jpg",
+    "latitud": 34.990416666,
+    "longitud": 135.686
+  },
+  {
+    "id": "Q3188311",
+    "nombre": "Jukō-in",
+    "zona": "Kita-ku",
+    "antiguedad": 460,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/090228%20Juko-in%20Daitokuji%20Kyoto%20Japan01s3.jpg",
+    "latitud": 35.04388889,
+    "longitud": 135.74527778
+  },
+  {
+    "id": "Q11060322",
+    "nombre": "Jōjakkō-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 430,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Jojakkoji01s3200.jpg",
+    "latitud": 35.019638888,
+    "longitud": 135.668675
+  },
+  {
+    "id": "Q11556781",
+    "nombre": "Jōjū-ji Temple",
+    "zona": "Nishikyō-ku",
+    "antiguedad": 1216,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Jyoujyuji.jpg",
+    "latitud": 34.989139,
+    "longitud": 135.687806
+  },
+  {
+    "id": "Q124496369",
+    "nombre": "Jōkō-in Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 449,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Joko-in%2C%20Kyoto.jpg",
+    "latitud": 35.018356,
+    "longitud": 135.787829
+  },
+  {
+    "id": "Q11481409",
+    "nombre": "Jōrin-ji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 453,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Johrinji.jpg",
+    "latitud": 35.029575,
+    "longitud": 135.773254
+  },
+  {
+    "id": "Q11481457",
+    "nombre": "Jōshō-ji Temple",
+    "zona": "Kita-ku",
+    "antiguedad": 410,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B8%B8%E7%85%A7%E5%AF%BA.jpg",
+    "latitud": 35.055444444,
+    "longitud": 135.732861111
+  },
+  {
+    "id": "Q11481460",
+    "nombre": "Jōshōkō-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 663,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B8%B8%E7%85%A7%E7%9A%87%E5%AF%BA1.jpg",
+    "latitud": 35.200889,
+    "longitud": 135.685361
+  },
+  {
+    "id": "Q11359019",
+    "nombre": "Jōtoku-ji Temple",
+    "zona": "Shimogyō-ku",
+    "antiguedad": 423,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Jyoutokuji.JPG",
+    "latitud": 34.9955,
+    "longitud": 135.764
+  },
+  {
+    "id": "Q11358677",
+    "nombre": "Jōzen-ji Temple",
+    "zona": "Kita-ku",
+    "antiguedad": 1163,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%8A%E5%96%84%E5%AF%BA.JPG",
+    "latitud": 35.030194,
+    "longitud": 135.741917
+  },
+  {
+    "id": "Q11381937",
+    "nombre": "Jūhon-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 328,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Juhon-ji%20temple%2C%20Higashiyama%2C%20Kyoto.jpg",
+    "latitud": 35.000639,
+    "longitud": 135.778917
+  },
+  {
+    "id": "Q11405174",
+    "nombre": "Jūrin-ji Temple",
+    "zona": "Nishikyō-ku",
+    "antiguedad": 1176,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/J%C5%ABrin-ji%20Main%20Sanctuary%20001.jpg",
+    "latitud": 34.944388888,
+    "longitud": 135.657194444
+  },
+  {
+    "id": "Q11558861",
+    "nombre": "Kaihō-ji Temple",
+    "zona": "Fushimi-ku",
+    "antiguedad": 226,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%EF%BC%AB%EF%BD%81%EF%BD%89%EF%BD%88%EF%BD%8F%EF%BD%95%EF%BD%8A%EF%BD%89.jpg",
+    "latitud": 34.94347222,
+    "longitud": 135.77188889
+  },
+  {
+    "id": "Q20043593",
+    "nombre": "Kaikō-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 798,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaikoji%20hondo.jpg",
+    "latitud": 34.98083333,
+    "longitud": 135.77811111
+  },
+  {
+    "id": "Q772598",
+    "nombre": "Kajū-ji Temple",
+    "zona": "Yamashina-ku",
+    "antiguedad": 1126,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/101229%20Kaju-ji%20Kyoto%20Japan03s3.jpg",
+    "latitud": 34.961213888,
+    "longitud": 135.807558333
+  },
+  {
+    "id": "Q11526330",
+    "nombre": "Kannon-ji Temple, Kitano-tenmangu",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 1220,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitano-tenmangu%20Kyoto%20Japan04n4592.jpg",
+    "latitud": 35.029,
+    "longitud": 135.73475
+  },
+  {
+    "id": "Q11620048",
+    "nombre": "Kegon-ji Temple",
+    "zona": "Nishikyō-ku",
+    "antiguedad": 303,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Le%20Temple%20Bouddhiste%20Kegon-ji%20-%20Le%20jardin1.jpg",
+    "latitud": 34.993625,
+    "longitud": 135.684861111
+  },
+  {
+    "id": "Q11536768",
+    "nombre": "Keishun-in",
+    "zona": "Ukyō-ku",
+    "antiguedad": 428,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Keisyun-in%203.JPG",
+    "latitud": 35.024852777,
+    "longitud": 135.722433333
+  },
+  {
+    "id": "Q11642476",
+    "nombre": "Kengō-in Temple",
+    "zona": "Kita-ku",
+    "antiguedad": 825,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kengo-in%20temple%2C%20Takagamine%2C%20Kyoto.jpg",
+    "latitud": 35.05386111,
+    "longitud": 135.73152778
+  },
+  {
+    "id": "Q18460218",
+    "nombre": "Kenkō-in Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 825,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Keiko-in%20temple%2C%20Kyoto%2C%20Higashiyama.jpg",
+    "latitud": 34.9745,
+    "longitud": 135.77116667
+  },
+  {
+    "id": "Q1440954",
+    "nombre": "Kennin-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 824,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kenninji01s1920.jpg",
+    "latitud": 35.00098867,
+    "longitud": 135.77366441
+  },
+  {
+    "id": "Q270983",
+    "nombre": "Kinkaku-ji Temple",
+    "zona": "Kita-ku",
+    "antiguedad": 629,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Water%20reflection%20of%20Kinkaku-ji%20Temple%20a%20sunny%20day%2C%20Kyoto%2C%20Japan.jpg",
+    "latitud": 35.0395,
+    "longitud": 135.7285
+  },
+  {
+    "id": "Q221716",
+    "nombre": "Kiyomizu-dera",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 1248,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kiyomizu-dera%2C%20Kyoto%2C%20November%202016%20-02.jpg",
+    "latitud": 34.994830555,
+    "longitud": 135.785002777
+  },
+  {
+    "id": "Q11448099",
+    "nombre": "Kohō-an",
+    "zona": "Kita-ku",
+    "antiguedad": 414,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Daitokuji%20Koho-an140524NI2.JPG",
+    "latitud": 35.043167,
+    "longitud": 135.739722
+  },
+  {
+    "id": "Q6134090",
+    "nombre": "Konkaikōmyō-ji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 851,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurodani3.JPG",
+    "latitud": 35.01963889,
+    "longitud": 135.78802778
+  },
+  {
+    "id": "Q3198741",
+    "nombre": "Konpuku-ji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 1162,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Main%20Temple%20and%20Bash%C5%8D-an%2C%20Konpukuji.jpg",
+    "latitud": 35.04223333,
+    "longitud": 135.79520833
+  },
+  {
+    "id": "Q608668",
+    "nombre": "Kurama-dera Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 1230,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurama-dera%20sanmon.jpg",
+    "latitud": 35.11806111,
+    "longitud": 135.77074167
+  },
+  {
+    "id": "Q2702064",
+    "nombre": "Kōdai-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 420,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/170923%20Kodaiji%20Kyoto%20Japan09n.jpg",
+    "latitud": 35.000761,
+    "longitud": 135.781114
+  },
+  {
+    "id": "Q11388400",
+    "nombre": "Kōetsu-ji Temple",
+    "zona": "Kita-ku",
+    "antiguedad": 370,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Koetsuji-Fence-Teahouse.jpg",
+    "latitud": 35.0533861,
+    "longitud": 135.73035
+  },
+  {
+    "id": "Q11613461",
+    "nombre": "Kōrin-in",
+    "zona": "Kita-ku",
+    "antiguedad": 506,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E8%88%88%E8%87%A8%E9%99%A2.JPG",
+    "latitud": 35.04253056,
+    "longitud": 135.74555
+  },
+  {
+    "id": "Q3076920",
+    "nombre": "Kōryū-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 1423,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kouryuji%20Taishiden.jpg",
+    "latitud": 35.0155,
+    "longitud": 135.70730833
+  },
+  {
+    "id": "Q119928706",
+    "nombre": "Kōshō-in Temple",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 670,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kosho-in%2C%20Kyoto.jpg",
+    "latitud": 35.032806,
+    "longitud": 135.755111
+  },
+  {
+    "id": "Q11613411",
+    "nombre": "Kōshō-ji Temple",
+    "zona": "Shimogyō-ku",
+    "antiguedad": 705,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/170128%20Koshoji%20Kyoto%20Japan03s3.jpg",
+    "latitud": 34.9898,
+    "longitud": 135.752017
+  },
+  {
+    "id": "Q11613457",
+    "nombre": "Kōshō-ji Temple",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 423,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C5%8Dsh%C5%8D-ji%20Kyoto%20HDSR%202020%2002%2026%209999%20200.jpg",
+    "latitud": 35.03636111,
+    "longitud": 135.75011111
+  },
+  {
+    "id": "Q3076987",
+    "nombre": "Kōtō-in",
+    "zona": "Kita-ku",
+    "antiguedad": 424,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Koto-in%2C%20Garden%20-2%20%28February%202016%29%20-%20panoramio.jpg",
+    "latitud": 35.04305556,
+    "longitud": 135.74333333
+  },
+  {
+    "id": "Q986750",
+    "nombre": "Kōzan-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 820,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kozanji%20Kyoto%20Kyoto11s5s4592.jpg",
+    "latitud": 35.060138,
+    "longitud": 135.678561
+  },
+  {
+    "id": "Q3074317",
+    "nombre": "Manju-ji",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 930,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Manju-ji%20Main%20Building%20Ground%20Floor.JPG",
+    "latitud": 34.9812,
+    "longitud": 135.771
+  },
+  {
+    "id": "Q3076940",
+    "nombre": "Manshu-in Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 1326,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Manshuin%20Temple%2C%20Kyoto%20-%20garden.JPG",
+    "latitud": 35.04881667,
+    "longitud": 135.80305556
+  },
+  {
+    "id": "Q1082935",
+    "nombre": "Mibu-dera",
+    "zona": "Nakagyō-ku",
+    "antiguedad": 1035,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Mibu-dera%20%28Nakagyo-ku%20Kyoto%29%20Main%20hall%20hdsr%20S5%2003.jpg",
+    "latitud": 35.0016,
+    "longitud": 135.74333889
+  },
+  {
+    "id": "Q18378681",
+    "nombre": "Myōan-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 691,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Myoanji.jpg",
+    "latitud": 34.978722222,
+    "longitud": 135.773111111
+  },
+  {
+    "id": "Q11446841",
+    "nombre": "Myōden-ji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 549,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Myoudenji.jpg",
+    "latitud": 35.013222,
+    "longitud": 135.778833
+  },
+  {
+    "id": "Q28693478",
+    "nombre": "Myōkō-ji Temple",
+    "zona": "Kita-ku",
+    "antiguedad": 450,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Myoko-ji%20temple%2C%20Kyoto.jpg",
+    "latitud": 35.038,
+    "longitud": 135.76017
+  },
+  {
+    "id": "Q10943057",
+    "nombre": "Myōman-ji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 643,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/230603%20Myomanji%20Kyoto%20Japan08s3.jpg",
+    "latitud": 35.06733333,
+    "longitud": 135.77497222
+  },
+  {
+    "id": "Q376288",
+    "nombre": "Myōshin-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 689,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Myoshinji-temple.jpg",
+    "latitud": 35.02316989,
+    "longitud": 135.72018385
+  },
+  {
+    "id": "Q11408325",
+    "nombre": "Nanzen-in",
+    "zona": "Sakyō-ku",
+    "antiguedad": 739,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/NanzenjiNanzenin%20teien.jpg",
+    "latitud": 35.0103,
+    "longitud": 135.79386944
+  },
+  {
+    "id": "Q1089767",
+    "nombre": "Nanzen-ji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 735,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/251213%20Nanzen-ji%20Kyoto%20Japan01s3.jpg",
+    "latitud": 35.011111111,
+    "longitud": 135.794166666
+  },
+  {
+    "id": "Q1202871",
+    "nombre": "Ninna-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 1138,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Ninnaji%20Kyoto07n4500.jpg",
+    "latitud": 35.03111111,
+    "longitud": 135.71388889
+  },
+  {
+    "id": "Q1146038",
+    "nombre": "Nishi Hongan-ji Temple",
+    "zona": "Shimogyō-ku",
+    "antiguedad": 435,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/170216%20Nishi%20Honganji%20Kyoto%20Japan03s4.jpg",
+    "latitud": 34.992047,
+    "longitud": 135.751611
+  },
+  {
+    "id": "Q3096514",
+    "nombre": "Nison-in Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 1126,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Nisonin03s3200.jpg",
+    "latitud": 35.0212,
+    "longitud": 135.668
+  },
+  {
+    "id": "Q3080421",
+    "nombre": "Otagi Nenbutsu-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 1260,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Otagi%20nenbutsuji09s3200.jpg",
+    "latitud": 35.031375,
+    "longitud": 135.661122
+  },
+  {
+    "id": "Q11523758",
+    "nombre": "Raigō-in Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 917,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%BA%AC%E9%83%BD%E3%83%BB%E5%A4%A7%E5%8E%9F%E3%81%AB%E3%81%A6%20%E6%9D%A5%E8%BF%8E%E9%99%A2%20Raig%C5%8D-in%202011.8.28%20-%20panoramio.jpg",
+    "latitud": 35.11863889,
+    "longitud": 135.83763889
+  },
+  {
+    "id": "Q11523759",
+    "nombre": "Raigō-in Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 1220,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Raigoin%20%28Higashiyama-ku%2C%20Kyoto%292.jpg",
+    "latitud": 34.979,
+    "longitud": 135.78066667
+  },
+  {
+    "id": "Q122833543",
+    "nombre": "Reikanji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 372,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Reikan-ji%2C%20Kyoto.jpg",
+    "latitud": 35.0206,
+    "longitud": 135.79656
+  },
+  {
+    "id": "Q11621738",
+    "nombre": "Renge-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 969,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Rengeji%20Ukyo-ku%20Kyoto%20Japan01s3s4500.jpg",
+    "latitud": 35.0293778,
+    "longitud": 135.715625
+  },
+  {
+    "id": "Q43594314",
+    "nombre": "Renkyū-ji Temple",
+    "zona": "Shimogyō-ku",
+    "antiguedad": 365,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Renkyu-ji%20temple%2C%20Kyoto.jpg",
+    "latitud": 34.995694,
+    "longitud": 135.7485
+  },
+  {
+    "id": "Q11612453",
+    "nombre": "Rinsen-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 691,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Rinsen-ji%20Temple140517NI1.JPG",
+    "latitud": 35.014778,
+    "longitud": 135.67875
+  },
+  {
+    "id": "Q599378",
+    "nombre": "Rokkaku-dō Temple",
+    "zona": "Nakagyō-ku",
+    "antiguedad": 1225,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Rokkakudo.jpg",
+    "latitud": 35.007222,
+    "longitud": 135.760278
+  },
+  {
+    "id": "Q1060771",
+    "nombre": "Rokuharamitsu-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 1063,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/150124%20Rokuharamitsu-ji%20Kyoto%20Japan01n.jpg",
+    "latitud": 34.99711,
+    "longitud": 135.773329
+  },
+  {
+    "id": "Q11677239",
+    "nombre": "Rokuō-in Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 646,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Rokuo-in%20Kyoto%20Japan08s3.jpg",
+    "latitud": 35.01666667,
+    "longitud": 135.68444444
+  },
+  {
+    "id": "Q11064894",
+    "nombre": "Rozan-ji Temple",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 1088,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/240224%20Rozan-ji%20Kyoto%20Japan04s3.jpg",
+    "latitud": 35.02458333,
+    "longitud": 135.76834722
+  },
+  {
+    "id": "Q54152981",
+    "nombre": "Rurikō-in Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 21,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Komyoji%20Rurikoin%2C%20Reflection%20of%20Fresh%20Green%20Maple%20Leaves%2002.jpg",
+    "latitud": 35.063333333,
+    "longitud": 135.808611111
+  },
+  {
+    "id": "Q587371",
+    "nombre": "Ryōan-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 576,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/250201%20Ryoan-ji%20Kyoto%20Japan06s3.jpg",
+    "latitud": 35.034444444,
+    "longitud": 135.718333333
+  },
+  {
+    "id": "Q3454075",
+    "nombre": "Ryōgen-in",
+    "zona": "Kita-ku",
+    "antiguedad": 524,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Ryogen-in%20Temple%20Garden.JPG",
+    "latitud": 35.04209167,
+    "longitud": 135.74608611
+  },
+  {
+    "id": "Q11679216",
+    "nombre": "Ryōgin-an",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 735,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%BE%8D%E5%90%9F%E5%BA%B5%28051128%29%2010.JPG",
+    "latitud": 34.97741111,
+    "longitud": 135.77483611
+  },
+  {
+    "id": "Q11679201",
+    "nombre": "Ryōkō-in",
+    "zona": "Sakyō-ku",
+    "antiguedad": 421,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Ryukoin.jpg",
+    "latitud": 35.02030556,
+    "longitud": 135.78672222
+  },
+  {
+    "id": "Q11371044",
+    "nombre": "Ryōtoku-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 502,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%BA%86%E5%BE%B3%E5%AF%BA.jpg",
+    "latitud": 35.029583333,
+    "longitud": 135.706333333
+  },
+  {
+    "id": "Q24869172",
+    "nombre": "Saigan-ji Temple",
+    "zona": "Fushimi-ku",
+    "antiguedad": 436,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Saiganji-Aburakake-jizo-hondo.jpg",
+    "latitud": 34.931944444,
+    "longitud": 135.759277777
+  },
+  {
+    "id": "Q1516753",
+    "nombre": "Saihō-ji Temple",
+    "zona": "Nishikyō-ku",
+    "antiguedad": 687,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Saihouji-kokedera01.jpg",
+    "latitud": 34.9925,
+    "longitud": 135.684166666
+  },
+  {
+    "id": "Q22118804",
+    "nombre": "Saihō-ji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 837,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/E-saihouji.jpg",
+    "latitud": 35.012833333,
+    "longitud": 135.778055555
+  },
+  {
+    "id": "Q11628431",
+    "nombre": "Saimyō-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 1126,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Saimyoji%20Kyoto%20Kyoto16n4592.jpg",
+    "latitud": 35.05721389,
+    "longitud": 135.67496944
+  },
+  {
+    "id": "Q11627446",
+    "nombre": "Saion-ji Temple",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 802,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Saion-ji%20Kyoto%20001.jpg",
+    "latitud": 35.036806,
+    "longitud": 135.763972
+  },
+  {
+    "id": "Q11629973",
+    "nombre": "Saiun-in",
+    "zona": "Sakyō-ku",
+    "antiguedad": 410,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Saiun-in%20Temple.jpg",
+    "latitud": 35.020028,
+    "longitud": 135.789528
+  },
+  {
+    "id": "Q20044419",
+    "nombre": "Saiō-in",
+    "zona": "Sakyō-ku",
+    "antiguedad": 442,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Saioh-in%20temple%2C%20Kyoto.jpg",
+    "latitud": 35.01971,
+    "longitud": 135.78644
+  },
+  {
+    "id": "Q3471686",
+    "nombre": "Sanbō-in Temple",
+    "zona": "Fushimi-ku",
+    "antiguedad": 911,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Daigoji%20Sanboin%20Kyoto04n4592.jpg",
+    "latitud": 34.952278,
+    "longitud": 135.819444
+  },
+  {
+    "id": "Q653319",
+    "nombre": "Sanjūsangen-dō Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 861,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Sanjusangendo%20temple01s1408.jpg",
+    "latitud": 34.987885,
+    "longitud": 135.771713
+  },
+  {
+    "id": "Q11358227",
+    "nombre": "Sanko-ji Temple",
+    "zona": "Nishikyō-ku",
+    "antiguedad": 952,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Sanko-ji%20temple%20inside%2CKyoto.jpg",
+    "latitud": 34.939972,
+    "longitud": 135.645083
+  },
+  {
+    "id": "Q11028481",
+    "nombre": "Seigan-ji Temple",
+    "zona": "Nakagyō-ku",
+    "antiguedad": 1359,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Seigan-ji%20Kyoto%20HDSR%20IMG%205169.jpg",
+    "latitud": 35.00736111,
+    "longitud": 135.76772222
+  },
+  {
+    "id": "Q11561442",
+    "nombre": "Seikan-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 1224,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Seikan-ji%20Temple%2001.JPG",
+    "latitud": 34.989778,
+    "longitud": 135.788444
+  },
+  {
+    "id": "Q116085694",
+    "nombre": "Seishin-in Temple",
+    "zona": "Nakagyō-ku",
+    "antiguedad": 999,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Seishinin%20-%20Hondo.jpg",
+    "latitud": 35.006722,
+    "longitud": 135.767528
+  },
+  {
+    "id": "Q11585586",
+    "nombre": "Sekihō-ji Temple",
+    "zona": "Fushimi-ku",
+    "antiguedad": 226,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%99%BE%E4%B8%88%E5%B1%B1%20%E7%9F%B3%E5%B3%B0%E5%AF%BA.JPG",
+    "latitud": 34.964694444,
+    "longitud": 135.775083333
+  },
+  {
+    "id": "Q11269244",
+    "nombre": "Sekizan Zen-in",
+    "zona": "Sakyō-ku",
+    "antiguedad": 1138,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/SekizanZen%27in%20Main%20Hall.jpg",
+    "latitud": 35.055861,
+    "longitud": 135.801333
+  },
+  {
+    "id": "Q1060966",
+    "nombre": "Sennyū-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 808,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Sennyuji%20Kyoto02bs4350.jpg",
+    "latitud": 34.97805556,
+    "longitud": 135.78055556
+  },
+  {
+    "id": "Q55537374",
+    "nombre": "Shin-Hase Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 1126,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Shinhasedera%20Temple.jpg",
+    "latitud": 35.022,
+    "longitud": 135.789277777
+  },
+  {
+    "id": "Q11583323",
+    "nombre": "Shinju-an",
+    "zona": "Kita-ku",
+    "antiguedad": 526,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Shinju-an%2C%20Daitoku-ji.jpg",
+    "latitud": 35.044333,
+    "longitud": 135.746417
+  },
+  {
+    "id": "Q11583037",
+    "nombre": "Shinnyo-ji Temple",
+    "zona": "Kita-ku",
+    "antiguedad": 684,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Shin-nyoji%20Temple140526NI2.JPG",
+    "latitud": 35.03086111,
+    "longitud": 135.72519444
+  },
+  {
+    "id": "Q1089231",
+    "nombre": "Shinshōgokuraku-ji Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 1042,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Shinnyodo.jpg",
+    "latitud": 35.021894,
+    "longitud": 135.790417
+  },
+  {
+    "id": "Q106836682",
+    "nombre": "Shinshū Ōtani-ha Okazaki Betsu-in Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 225,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Okazaki%20betuin2.jpg",
+    "latitud": 35.017444444,
+    "longitud": 135.788416666
+  },
+  {
+    "id": "Q11502277",
+    "nombre": "Shintoku-ji Temple",
+    "zona": "Nakagyō-ku",
+    "antiguedad": 287,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Sintokuji.jpg",
+    "latitud": 35.001778,
+    "longitud": 135.744639
+  },
+  {
+    "id": "Q55537320",
+    "nombre": "Shinzenkō-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 783,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Shinzenkoji2.jpg",
+    "latitud": 34.980305555,
+    "longitud": 135.778972222
+  },
+  {
+    "id": "Q3028486",
+    "nombre": "Shisen-dō Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 385,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Shisendo%20DSC0480.jpg",
+    "latitud": 35.043744,
+    "longitud": 135.796241
+  },
+  {
+    "id": "Q126285087",
+    "nombre": "Shonen-ji Temple",
+    "zona": "Fushimi-ku",
+    "antiguedad": 439,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%8B%9D%E5%BF%B5%E5%AF%BA%E9%96%80%E5%89%8D.jpg",
+    "latitud": 34.9395,
+    "longitud": 135.762972222
+  },
+  {
+    "id": "Q669494",
+    "nombre": "Shunkō-in",
+    "zona": "Ukyō-ku",
+    "antiguedad": 436,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Myoshinj%20shunkoin02s2000.jpg",
+    "latitud": 35.024,
+    "longitud": 135.719
+  },
+  {
+    "id": "Q11545356",
+    "nombre": "Shōden-ji Temple",
+    "zona": "Kita-ku",
+    "antiguedad": 758,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%AD%A3%E4%BC%9D%E5%AF%BA%E6%AD%A3%E9%96%80.jpg",
+    "latitud": 35.06236111,
+    "longitud": 135.73688889
+  },
+  {
+    "id": "Q8664338",
+    "nombre": "Shōgo-in Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 936,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/170216%20Shogoin%20Kyoto%20Japan05s3.jpg",
+    "latitud": 35.01916,
+    "longitud": 135.780278
+  },
+  {
+    "id": "Q28682504",
+    "nombre": "Shōgon-ji Temple",
+    "zona": "Shimogyō-ku",
+    "antiguedad": 621,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Shogon-ji%20temple%2C%20Kyoto.jpg",
+    "latitud": 34.993111111,
+    "longitud": 135.764083333
+  },
+  {
+    "id": "Q11400336",
+    "nombre": "Shōji-ji Temple",
+    "zona": "Nishikyō-ku",
+    "antiguedad": 1347,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Shojiji%20Kyoto%20Japan04s3s4592.jpg",
+    "latitud": 34.960694444,
+    "longitud": 135.651666666
+  },
+  {
+    "id": "Q11561286",
+    "nombre": "Shōjōke-in Temple",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 1166,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Shojokein%20daiden.jpg",
+    "latitud": 35.02516667,
+    "longitud": 135.76844444
+  },
+  {
+    "id": "Q1786709",
+    "nombre": "Shōkoku-ji Temple",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 644,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/150815%20Shokokuji%20Kyoto%20Japan02s3.jpg",
+    "latitud": 35.03306019,
+    "longitud": 135.76234817
+  },
+  {
+    "id": "Q377386",
+    "nombre": "Shōren-in Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 876,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/251218%20Shoren-in%20Kyoto%20Japan04s3.jpg",
+    "latitud": 35.007311,
+    "longitud": 135.783197
+  },
+  {
+    "id": "Q11400358",
+    "nombre": "Shōrin-in Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 1013,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Shorinin.jpg",
+    "latitud": 35.121222,
+    "longitud": 135.834528
+  },
+  {
+    "id": "Q106836645",
+    "nombre": "Sumino-bō Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 169,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Suminobo%20-%20Hondo.jpg",
+    "latitud": 35.0115,
+    "longitud": 135.72175
+  },
+  {
+    "id": "Q1058324",
+    "nombre": "Sōken-in",
+    "zona": "Kita-ku",
+    "antiguedad": 443,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Souken-in.JPG",
+    "latitud": 35.0441,
+    "longitud": 135.745
+  },
+  {
+    "id": "Q11410466",
+    "nombre": "Sōrin-in Temple",
+    "zona": "Yamashina-ku",
+    "antiguedad": 361,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Sorin-in%20130216001.JPG",
+    "latitud": 35.001778,
+    "longitud": 135.817694
+  },
+  {
+    "id": "Q11659439",
+    "nombre": "Sōrin-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 1221,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Sourinn%20ji.JPG",
+    "latitud": 35.00230556,
+    "longitud": 135.78169444
+  },
+  {
+    "id": "Q11639311",
+    "nombre": "Taikō-an",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 680,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Tofuku-ji%20%284587864360%29.jpg",
+    "latitud": 34.9795,
+    "longitud": 135.771778
+  },
+  {
+    "id": "Q3514106",
+    "nombre": "Taizō-in",
+    "zona": "Ukyō-ku",
+    "antiguedad": 622,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Myoshinji%20taizoin01n2040.jpg",
+    "latitud": 35.02222222,
+    "longitud": 135.71944444
+  },
+  {
+    "id": "Q22119355",
+    "nombre": "Tanukidanisan Fudō-in",
+    "zona": "Sakyō-ku",
+    "antiguedad": 308,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Tanukidanisan%20Fudo-in%20Temple%20Main%20Hall.jpg",
+    "latitud": 35.04106944,
+    "longitud": 135.80233333
+  },
+  {
+    "id": "Q11442642",
+    "nombre": "Tenju-an",
+    "zona": "Sakyō-ku",
+    "antiguedad": 686,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Tenjuan%20at%20Nanzenji.jpg",
+    "latitud": 35.01063889,
+    "longitud": 135.79225
+  },
+  {
+    "id": "Q11442545",
+    "nombre": "Tennei-ji Temple",
+    "zona": "Kita-ku",
+    "antiguedad": 426,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%A4%A9%E5%AF%A7%E5%AF%BA%E5%B1%B1%E9%96%80.JPG",
+    "latitud": 35.03747222,
+    "longitud": 135.76358333
+  },
+  {
+    "id": "Q1759226",
+    "nombre": "Tenryū-ji Temple",
+    "zona": "Ukyō-ku",
+    "antiguedad": 681,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Tenryuji%20Kyoto.jpg",
+    "latitud": 35.01599,
+    "longitud": 135.67379
+  },
+  {
+    "id": "Q119928771",
+    "nombre": "Tenshō-ji Temple",
+    "zona": "Nakagyō-ku",
+    "antiguedad": 449,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Tensho-ji%20%28Kyoto%29%20-%20DSC05885.JPG",
+    "latitud": 35.00925,
+    "longitud": 135.767833333
+  },
+  {
+    "id": "Q1046403",
+    "nombre": "Tō-ji Temple",
+    "zona": "Minami-ku",
+    "antiguedad": 1350,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Toji%202015.JPG",
+    "latitud": 34.980555555,
+    "longitud": 135.747777777
+  },
+  {
+    "id": "Q2166743",
+    "nombre": "Tōfuku-ji Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 790,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/TofukujiSanmon.jpg",
+    "latitud": 34.975707,
+    "longitud": 135.773676
+  },
+  {
+    "id": "Q11526269",
+    "nombre": "Tōhoku-in Temple",
+    "zona": "Sakyō-ku",
+    "antiguedad": 996,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Tohoku-in%2C%20Kyoto.jpg",
+    "latitud": 35.023056,
+    "longitud": 135.787444
+  },
+  {
+    "id": "Q3138637",
+    "nombre": "Tōji-in Temple",
+    "zona": "Kita-ku",
+    "antiguedad": 685,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/251231%20Toji-in%20Kyoto%20Japan24s3.jpg",
+    "latitud": 35.03155,
+    "longitud": 135.72346944
+  },
+  {
+    "id": "Q3551943",
+    "nombre": "Unryū-in Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 654,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Unryuin%20Kyoto15n4592.jpg",
+    "latitud": 34.9771,
+    "longitud": 135.78
+  },
+  {
+    "id": "Q169621",
+    "nombre": "Yoshimine-dera Temple",
+    "zona": "Nishikyō-ku",
+    "antiguedad": 1003,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoshiminedera%20sanmon.jpg",
+    "latitud": 34.938172,
+    "longitud": 135.644203
+  },
+  {
+    "id": "Q11666843",
+    "nombre": "Yōgen-in Temple",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 432,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Yogenin%20sando.jpg",
+    "latitud": 34.98786111,
+    "longitud": 135.77363889
+  },
+  {
+    "id": "Q11453117",
+    "nombre": "Yūsei-ji Temple",
+    "zona": "Kamigyō-ku",
+    "antiguedad": 718,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Yuseiji%20Kyoto%20Japan01n.jpg",
+    "latitud": 35.02708333,
+    "longitud": 135.73769444
+  },
+  {
+    "id": "Q85882834",
+    "nombre": "Zenkyo-an",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 696,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Zenkyoan%20130109.jpg",
+    "latitud": 34.9995,
+    "longitud": 135.772861
+  },
+  {
+    "id": "Q11573878",
+    "nombre": "Zuihō-in",
+    "zona": "Kita-ku",
+    "antiguedad": 426,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Zuihou-in.JPG",
+    "latitud": 35.04214722,
+    "longitud": 135.74538611
+  },
+  {
+    "id": "Q11573899",
+    "nombre": "Zuisen-ji Temple",
+    "zona": "Nakagyō-ku",
+    "antiguedad": 415,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Zuisen-ji%20%28Kyoto%29%20-%20DSC05908.JPG",
+    "latitud": 35.008611,
+    "longitud": 135.770889
+  },
+  {
+    "id": "Q11658945",
+    "nombre": "Zuishin-in Temple",
+    "zona": "Yamashina-ku",
+    "antiguedad": 1035,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Zuishinin%20Kyoto03s3s4592.jpg",
+    "latitud": 34.959494444,
+    "longitud": 135.816286111
+  },
+  {
+    "id": "Q30932866",
+    "nombre": "Zuiun-in Temple",
+    "zona": "Shimogyō-ku",
+    "antiguedad": 424,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Zuiun-in%2C%20Shimogyo%2C%20Kyoto.jpg",
+    "latitud": 34.99716667,
+    "longitud": 135.75166667
+  },
+  {
+    "id": "Q3594011",
+    "nombre": "Ōbai-in",
+    "zona": "Kita-ku",
+    "antiguedad": 464,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/160206%20Obai-in%20Daitokuji%20Kyoto%20Japan01s3.jpg",
+    "latitud": 35.0417,
+    "longitud": 135.746
+  },
+  {
+    "id": "Q106836678",
+    "nombre": "霊山本廟",
+    "zona": "Higashiyama-ku",
+    "antiguedad": 150,
+    "imagen": "https://commons.wikimedia.org/wiki/Special:FilePath/Ryozenhonbyo%20-%20Hondo.jpg",
+    "latitud": 34.996777777,
+    "longitud": 135.782333333
+  }
+]
