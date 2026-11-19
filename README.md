@@ -4,6 +4,10 @@ Aplicación web para explorar templos budistas de Kioto, Japón, y generar recor
 
 Proyecto desarrollado para el Trabajo Práctico 2 de Desarrollo Frontend II (2026).
 
+## Aplicación publicada
+
+[Acceder a Kioto Temples](https://kioto-temples.vercel.app/)
+
 ## Funcionalidades
 
 - Consulta de un catálogo de 203 templos budistas.
