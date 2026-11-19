@@ -1,4 +1,3 @@
-
 function TarjetaTemplo({ templo }) {
   // Construimos el enlace a partir del identificador de Wikidata
   const idWikidata = templo.id.split('/').pop();
@@ -20,11 +19,6 @@ function TarjetaTemplo({ templo }) {
         <p>
           Antigüedad aproximada: {templo.antiguedad} años
         </p>
-
-        <small className="aclaracion-antiguedad">
-          Estimación basada en el año de fundación registrado.
-          No necesariamente representa la antigüedad del edificio actual.
-        </small>
 
         <p>Ubicación: Kyoto, Japón</p>
 

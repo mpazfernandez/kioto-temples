@@ -1,0 +1,36 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Catálogo de templos
+    match /templos/{temploId} {
+      allow read: if request.auth != null;
+      allow create, update, delete: if false;
+    }
+
+    // Recorridos personales
+    match /recorridos/{recorridoId} {
+     allow read: if request.auth != null
+      && resource.data.userId == request.auth.uid;
+
+     allow create: if request.auth != null
+      && request.resource.data.userId == request.auth.uid
+      && request.resource.data.nombre is string
+      && request.resource.data.nombre.size() > 0
+      && request.resource.data.templos is list
+      && request.resource.data.templos.size() == 3;
+
+     allow update: if request.auth != null
+      && resource.data.userId == request.auth.uid
+      && request.resource.data.userId == request.auth.uid
+      && request.resource.data.nombre is string
+      && request.resource.data.templos is list
+      && request.resource.data.nombre.size() > 0
+      && request.resource.data.templos.size() == 3;
+
+     allow delete: if request.auth != null
+      && resource.data.userId == request.auth.uid;
+   }
+  }
+}

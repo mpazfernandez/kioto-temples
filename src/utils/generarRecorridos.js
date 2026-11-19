@@ -1,3 +1,29 @@
+import { caracteristicasTemplos } from '../data/caracteristicasTemplos.js';
+
+export function filtrarPorIntereses(
+  templos,
+  intereses = []
+) {
+  return templos.filter((templo) => {
+    const caracteristicas = caracteristicasTemplos[templo.id];
+
+    if (!caracteristicas) return false;
+
+    const categorias = [
+      ...caracteristicas.jardines,
+      ...caracteristicas.arquitectura
+    ];
+
+    if (categorias.length === 0) return false;
+
+    if (intereses.length === 0) return true;
+
+    return intereses.some((interes) =>
+      categorias.includes(interes)
+    );
+  });
+}
+
 function calcularDistancia(temploA, temploB) {
   const radioTierra = 6371;
 

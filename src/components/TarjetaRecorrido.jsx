@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { obtenerCaracteristicas } from '../utils/obtenerCaracteristicas';
 
 export default function TarjetaRecorrido({
   recorrido,
@@ -20,9 +21,11 @@ export default function TarjetaRecorrido({
         <div>
           <p className="etiqueta">RECORRIDO SUGERIDO</p>
           <h3>{recorrido.nombre}</h3>
+
           <p>
             {recorrido.zona} · {recorrido.templos.length} templos
           </p>
+
           <p>
             Distancia estimada: {recorrido.distanciaTotal} km
           </p>
@@ -42,52 +45,69 @@ export default function TarjetaRecorrido({
           </p>
 
           <div className="lista-paradas">
-            {recorrido.templos.map((templo, indice) => (
-              <div key={templo.id}>
 
-                <div className="parada-recorrido">
+            {recorrido.templos.map((templo, indice) => {
+              const caracteristicas = obtenerCaracteristicas(templo.id);
 
-                  <span className="numero-parada">
-                    {indice + 1}
-                  </span>
+              return (
+                <div key={templo.id}>
 
-                  <img
-                    src={templo.imagen}
-                    alt={templo.nombre}
-                    className="imagen-parada"
-                  />
+                  <div className="parada-recorrido">
 
-                  <div className="datos-parada">
-                    <h4>{templo.nombre}</h4>
-                    <p>{templo.zona}</p>
+                    <span className="numero-parada">
+                      {indice + 1}
+                    </span>
 
-                    {templo.antiguedad != null && (
-                      <p>
-                        Antigüedad aproximada: {templo.antiguedad} años
-                      </p>
-                    )}
+                    <img
+                      src={templo.imagen}
+                      alt={templo.nombre}
+                      className="imagen-parada"
+                      loading="lazy"
+                    />
+
+                    <div className="datos-parada">
+                      <h4>{templo.nombre}</h4>
+                      <p>{templo.zona}</p>
+
+                      {templo.antiguedad != null && (
+                        <p>
+                          Antigüedad aproximada: {templo.antiguedad} años
+                        </p>
+                      )}
+
+                      {caracteristicas.length > 0 && (
+                        <ul className="caracteristicas-parada">
+                          {caracteristicas.map((caracteristica) => (
+                            <li key={caracteristica}>
+                              {caracteristica}
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+
+                    </div>
+
                   </div>
+
+                  {indice < recorrido.templos.length - 1 && (
+                    <div className="distancia-paradas">
+                      ↓
+                      <span>
+                        {recorrido.distancias[indice]?.kilometros} km
+                        estimados hasta la siguiente parada
+                      </span>
+                    </div>
+                  )}
 
                 </div>
+              );
+            })}
 
-                {indice < recorrido.templos.length - 1 && (
-                  <div className="distancia-paradas">
-                    ↓
-                    <span>
-                      {recorrido.distancias[indice]?.kilometros} km
-                      estimados hasta la siguiente parada
-                    </span>
-                  </div>
-                )}
-
-              </div>
-            ))}
           </div>
 
           <div className="resumen-recorrido">
             <p>
-              Distancia total estimada:
-              {' '}
+              Distancia total estimada:{' '}
               <strong>{recorrido.distanciaTotal} km</strong>
             </p>
 

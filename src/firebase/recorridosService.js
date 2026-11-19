@@ -13,6 +13,7 @@ import {
 import { db } from './config';
 
 // 1. Guardar un recorrido nuevo
+
 export async function guardarRecorrido(recorrido, userId) {
   if (!recorrido.nombre?.trim()) {
     throw new Error('El recorrido necesita un nombre.');
@@ -24,7 +25,11 @@ export async function guardarRecorrido(recorrido, userId) {
 
   const nuevoRecorrido = {
     nombre: recorrido.nombre.trim(),
+    descripcion: recorrido.descripcion?.trim() || '',
     zona: recorrido.zona,
+    intereses: Array.isArray(recorrido.intereses)
+      ? recorrido.intereses
+      : [],
     templos: recorrido.templos,
     userId,
     creado: serverTimestamp()

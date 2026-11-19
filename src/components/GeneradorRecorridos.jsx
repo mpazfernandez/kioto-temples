@@ -1,7 +1,59 @@
 import { useState } from 'react';
-import { generarRecorridos } from '../utils/generarRecorridos';
+
+import {
+  generarRecorridos,
+  filtrarPorIntereses
+} from '../utils/generarRecorridos';
+
 import TarjetaRecorrido from './TarjetaRecorrido';
 import { guardarRecorrido } from '../firebase/recorridosService';
+import TarjetaInteres from './TarjetaInteres';
+
+const tiposJardines = [
+  {
+    id: 'jardin_seco',
+    nombre: 'Jardín seco',
+    imagen: '/images/intereses/jardin-seco.jpg'
+  },
+  {
+    id: 'jardin_musgo',
+    nombre: 'Jardín de musgo',
+    imagen: '/images/intereses/jardin-musgo.jpg'
+  },
+  {
+    id: 'jardin_paisajistico',
+    nombre: 'Jardín paisajístico',
+    imagen: '/images/intereses/jardin-paisajistico.jpg'
+  },
+  {
+    id: 'jardin_te',
+    nombre: 'Jardín de té',
+    imagen: '/images/intereses/jardin-te.jpg'
+  }
+];
+
+const tiposArquitectura = [
+  {
+    id: 'arquitectura_zen',
+    nombre: 'Arquitectura Zen',
+    imagen: '/images/intereses/arquitectura-zen.jpg'
+  },
+  {
+    id: 'pagoda',
+    nombre: 'Pagodas',
+    imagen: '/images/intereses/pagoda.jpg'
+  },
+  {
+    id: 'salon_principal',
+    nombre: 'Salones tradicionales',
+    imagen: '/images/intereses/salon-principal.jpg'
+  },
+  {
+    id: 'puerta_sanmon',
+    nombre: 'Puertas Sanmon',
+    imagen: '/images/intereses/puerta-sanmon.jpg'
+  }
+];
 
 export default function GeneradorRecorridos({ templos, userId }) {
   const [zona, setZona] = useState('Todas');
@@ -27,17 +79,34 @@ export default function GeneradorRecorridos({ templos, userId }) {
 
   // Generar recorridos
   function handleGenerarRecorridos() {
-    const templosDisponibles = templos.filter((templo) => {
+    // Primero filtramos por zona
+    const templosPorZona = templos.filter((templo) => {
       return zona === 'Todas' || templo.zona === zona;
     });
 
+    // Después filtramos por intereses
+    const templosDisponibles = filtrarPorIntereses(
+      templosPorZona,
+      intereses
+    );
+
+    setRecorridosGuardados([]);
+
     if (templosDisponibles.length < 3) {
       setRecorridos([]);
-      setMensaje('Esta zona no tiene suficientes templos para generar un recorrido.');
+      setMensaje(
+        'No hay suficientes templos que coincidan con tu selección. Probá ampliando la zona o modificando tus intereses.'
+      );
       return;
     }
 
-    const sugerencias = generarRecorridos(templosDisponibles, 3);
+    const sugerencias = generarRecorridos(
+      templosDisponibles,
+      3
+    ).map((recorrido) => ({
+      ...recorrido,
+      intereses: [...intereses]
+    }));
 
     setRecorridos(sugerencias);
 
@@ -81,7 +150,7 @@ export default function GeneradorRecorridos({ templos, userId }) {
     <section className="generador">
 
       <div className="generador-intro">
-        <p className="etiqueta">DISCOVER KYOTO</p>
+        <p className="etiqueta">DESCUBRÍ KIOTO</p>
         <h2>Creá tu recorrido</h2>
         <p>
           Explorá templos budistas y descubrí nuevos lugares
@@ -104,41 +173,55 @@ export default function GeneradorRecorridos({ templos, userId }) {
             <option value="Todas">Todas las zonas</option>
 
             {zonas.map((zonaDisponible) => (
-              <option key={zonaDisponible} value={zonaDisponible}>
+              <option
+                key={zonaDisponible}
+                value={zonaDisponible}
+              >
                 {zonaDisponible}
               </option>
             ))}
           </select>
         </div>
 
-        <fieldset className="campo">
-          <legend>¿Qué te interesa descubrir?</legend>
+        <fieldset className="campo campo-intereses">
+          <legend>
+            ¿Qué tipos de jardines te gustaría descubrir?
+          </legend>
 
-          <label>
-            <input
-              type="checkbox"
-              checked={intereses.includes('jardines')}
-              onChange={() => cambiarInteres('jardines')}
-            />
-            Jardines
-          </label>
-
-          <label>
-            <input
-              type="checkbox"
-              checked={intereses.includes('arquitectura')}
-              onChange={() => cambiarInteres('arquitectura')}
-            />
-            Arquitectura
-          </label>
-
-          <small>
-            Las preferencias estarán disponibles cuando completemos
-            la clasificación de los templos.
-          </small>
+          <div className="grilla-intereses">
+            {tiposJardines.map((tipo) => (
+              <TarjetaInteres
+                key={tipo.id}
+                tipo={tipo}
+                seleccionado={intereses.includes(tipo.id)}
+                onChange={cambiarInteres}
+              />
+            ))}
+          </div>
         </fieldset>
 
-        <button type="button" onClick={handleGenerarRecorridos}>
+        <fieldset className="campo campo-intereses">
+          <legend>
+            ¿Qué tipos de arquitectura te interesan?
+          </legend>
+
+          <div className="grilla-intereses">
+            {tiposArquitectura.map((tipo) => (
+              <TarjetaInteres
+                key={tipo.id}
+                tipo={tipo}
+                seleccionado={intereses.includes(tipo.id)}
+                onChange={cambiarInteres}
+              />
+            ))}
+          </div>
+        </fieldset>
+
+        <button
+          type="button"
+          onClick={handleGenerarRecorridos}
+          disabled={guardandoId !== null}
+        >
           Generar recorridos
         </button>
 
@@ -158,7 +241,6 @@ export default function GeneradorRecorridos({ templos, userId }) {
             Seleccioná un recorrido para descubrir sus templos.
           </p>
 
-          {/* Las tarjetas se incorporarán en el siguiente paso */}
           {recorridos.map((recorrido) => (
             <TarjetaRecorrido
               key={recorrido.id}
